@@ -17,8 +17,9 @@ import hogs from "../porkers_data"
 
         return (
             <> 
+                <label for="greased">Greased</label>
                  <input type="checkbox" name="greased" onChange={handleChangeFilter} checked={showGreased}/>
-                 <label for="greased">Greased</label>
+                 
                  <label for="sort">Sort By Name and Weight</label>
                  <select name="sort" onChange={handleChangeSort} value={sortBy}>
                      <option>Name</option>
